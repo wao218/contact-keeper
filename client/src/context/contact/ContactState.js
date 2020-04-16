@@ -60,7 +60,7 @@ const ContactState = (props) => {
 
       }}
     >
-      {props.childern}
+      {props.children}
     </ContactContext.Provider>
   );
 }
