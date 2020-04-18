@@ -41,6 +41,8 @@ const ContactState = (props) => {
 
   const [state, dispatch] = useReducer(contactReducer, initialState);
 
+  // ACTIONS
+
   // Add contact
   const addContact = (contact) => {
     contact.id = uuid(); 
